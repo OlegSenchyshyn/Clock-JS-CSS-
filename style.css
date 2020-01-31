@@ -48,18 +48,32 @@ body {
 }
 .hour-hand {
   height: 10px;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 40px;
+  box-shadow: -1px 0px 3px 1px;
 }
 .minute-hand {
-  background-color: #222;
+  background-color: #2d364c;
   height: 5px;
   border: 1px solid black;
   border-radius: 40px;
+  box-shadow: -1px 0px 3px 1px;
 }
 .second-hand {
   border: 1px solid black;
   border-radius: 40px;
   height: 2px;
   background: red;
+  box-shadow: -1px 0px 5px 0px;
+}
+.dot {
+  height: 13px;
+  border: 1px solid black;
+  border-radius: 40px;
+  width: 13px;
+  position: absolute;
+  right: 50%;
+  transform-origin: 13px;
+  background-color: red;
+  box-shadow: -1px 0px 3px 1px;
 }
