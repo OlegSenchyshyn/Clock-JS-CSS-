@@ -67,13 +67,13 @@ body {
   box-shadow: -1px 0px 5px 0px;
 }
 .dot {
-  height: 13px;
+  height: 19px;
   border: 1px solid black;
   border-radius: 40px;
-  width: 13px;
+  width: 19px;
   position: absolute;
-  right: 50%;
-  transform-origin: 13px;
+  right: 48%;
+  transform-origin: 17px;
   background-color: red;
   box-shadow: -1px 0px 3px 1px;
 }
